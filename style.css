@@ -1,0 +1,89 @@
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/heroImage.png');
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+/* MAP STYLES */
+#embeddedmap-canvas img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
+
+img {
+    max-width: none;
+}
+
+/* FOOTER */
+/* social media icons styling */
+.social-icons {
+    font-size: 66px;
+    cursor: pointer;
+}
+
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    color: #df1ea5;
+}
+
+.fab {
+    color: rgb(44, 112, 244);
+}
+
+/* footer styling */
+#footer {
+    background-color: #131212;
+    text-align: center;
+}
+
+
+/* spacing on all sections */
+#about,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
